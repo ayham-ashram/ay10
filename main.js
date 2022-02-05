@@ -9,8 +9,8 @@ atrabiot.forEach(function(ele){
         ele.classList.remove("atrabiot");
         ele.classList.add ("change");
         // ele.style.position = "absolute";
-        // ele.lastChild.setAttribute("width","390px");
-        ele.lastChild.setAttribute("height","500px");
+        // ele.lastChild.setAttribute("width","px");
+        ele.lastChild.setAttribute("height","350px");
         ollstory.style.height = "1000px";
         
 
