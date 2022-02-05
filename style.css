@@ -1,0 +1,579 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Glyphicons Halflings';
+    
+}
+body{
+    background-color: #0c112e;
+    -webkit-font-smoothing: antialiased;
+    animation-duration: 1.2s;
+
+}
+.contaner
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+/* start for mack the story */
+.story
+{
+    width: 130px;
+    height: 150px;
+    background-color:#1a2859;
+    overflow: hidden;
+
+}
+.logo
+{
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: white;
+
+    
+}
+.ollstory1{
+    position: absolute;
+    z-index: 999;
+    width:  450px;
+    height:  800px;
+    left: 0px;
+    right: 0px;
+    background-color: #191e20;
+}
+.atrabiots
+{
+    width: 1200px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s;
+    animation-duration: 30s;
+    /* animation-delay: 30s; */
+    animation-iteration-count:infinite;
+    animation-name: movestory;
+    
+}
+.change
+{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 390px;
+    height: 591px;
+    z-index: 1000;
+}
+.atrabiot
+{
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-color: rgb(133, 127, 119);
+    border: 2px solid black;
+    overflow: hidden;
+}
+.imgprofile
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border: 1px solid #fff;
+}
+.atrabiot span{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #fff;
+    font-size: medium;
+}
+
+@keyframes movestory {
+    10%{margin-left: -90px;}
+    15%{margin-left: -90px;}
+    20%{margin-left: -180px;}
+    25%{margin-left: -180px;}
+    30%{margin-left: -270px;}
+    35%{margin-left: -270px;}
+    40%{margin-left: -360px;}
+    45%{margin-left: -360px;}
+    50%{margin-left: -450px;}
+    55%{margin-left: -450px;}
+    60%{margin-left: -540px;}
+    65%{margin-left: -540px;}
+    70%{margin-left: -630px;}
+    75%{margin-left: -630px;}
+    80%{margin-left: -730px;}
+    85%{margin-left: -730px;}
+    90%{margin-left: -820px;}
+    95%{margin-left: -820px;}
+    100%{margin-left: -850px;}
+}
+/* end for mack the story */
+
+
+/* new post */
+
+.new-post
+{
+    position: relative;
+    display: flex;
+    background-color: #1a2859;
+    width: 250px;
+    height: 117px;
+}
+.inp{
+    width: 100%;
+}
+.inp input
+{
+    color: #fff;
+    width: 100%;
+    height: 63px;
+    background-color: #1b275ae3;
+    border: 1px solid #0c112e;
+    text-align: end;
+}
+.inp .top
+{
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 1px 1px #0c112e;
+}
+.inp .bottom
+{
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inp .bottom span
+{
+    color: #fff;
+    font-size: 12px;
+}
+.your-img
+{
+    position: absolute;
+    top: 33%;
+    left: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.your-img-js
+{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.text-js
+{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.post-js
+{
+    margin: 30px;
+    /* background: #1b265a; */
+    
+}
+.post-js1
+{
+    margin: 30px;
+    background: #c1c0c0;
+    color: black;
+    
+}
+.post-js2
+{
+    margin: 30px;
+    background: rgb(50 48 50 / 82%);
+    color: #fff;
+    
+}
+.post-js3
+{
+    margin: 30px;
+    background: #b4ceb3;
+    color: black;
+    
+}
+/* ##############################################################333 */
+.ferst-post
+{
+    background-color: #1b265a;
+    margin: 30px 20px;
+    overflow: hidden;
+}
+.information-post
+{
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.ferst-post .information-post .text h1
+{
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+.ferst-post .information-post img
+{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.ideas{
+color: #b3b0b0;
+font-size: 7px;
+}
+
+.ideas p
+{
+    margin: 10px;
+}
+.ferst-post .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.ferst-post .imgs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.active-inpost
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+.active-inpost .like::after
+{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 2px;
+    height: 20px;
+    left:100px;
+}
+.active-inpost .comment::after
+{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 2px;
+    height: 20px;
+    left:250px;
+}
+.footer-post
+{
+    position: relative;
+}
+.footer-post input
+{
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    background-color: #1b275ae3;
+    border: 1px solid #0c112e;
+    text-align: center;
+}
+.your-img-comment
+{
+    top: 13px;
+}
+
+.footer-post .span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 1px solid #1b265a;
+    border-radius: 5px;
+    box-shadow: -1px -1px 6px 3px #c2c5d5;
+    height: 32px;
+    margin: 5% 0px;
+    right: 10px;
+    color: #fff;
+    top: -9px;
+    background: #0c112e;
+    width: 100px;
+}
+nav
+{
+    background-color:#1a2859;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+nav ul
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li
+{
+    list-style: none;
+    padding: 5px 16px;
+    position: relative;
+}
+.spanside
+{
+    background: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    top: 0px;
+    left: 5px;
+}
+.spannot
+{
+    background: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    top: 0px;
+    left: 5px;
+}
+.spanfir
+{
+    background: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    top: 0px;
+    left: 5px;
+}
+
+aside
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* height: 100vh; */
+    background-color:#0c112e;
+    width: 60%;
+    z-index: 10;
+    transition: all 0.2s;
+    width: 0px;
+    overflow: hidden;
+}
+aside .Setting::after
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    /* background: bisque; */
+    transform: rotate(45deg);
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+
+aside .Setting
+{
+    position: relative;
+    background-color: #1b265a;
+    color: #fff;
+    height: 35px;
+    margin: 30px 5px;
+    padding: 10px;
+}
+aside .Settings
+{
+    background-color: #1b265a;
+    color: #fff;
+    height: 0px;
+    overflow: hidden;
+    margin: 30px 5px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+aside .favorites
+    {
+        background-color: #1b265a;
+        height: 0px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 30px 5px;
+    }
+aside .favorite
+{
+    background-color: #1b265a;
+    color: #fff;
+    height: 35px;
+    margin: 30px 5px;
+    padding: 10px;
+    position: relative;
+}
+.favorite::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    /* background: bisque; */
+    transform: rotate(45deg);
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+
+}
+.favorites h3
+{
+    display: inline-block;
+    color: #fff;
+}
+.group
+{
+    background-color: #1b265a;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.group img{
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.color
+{
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+.colors
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.bool
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 11px 1px #9d9898
+}
+#nice
+{
+    background-color: #9EB7AE;
+}
+#light
+{
+    background-color: #EBD4D1;
+}
+#night
+{
+    background-color: #191e20;
+}
+#dark
+{
+    background-color: #1a2859;
+}
+.notices
+{
+    background: #1b265a;
+    width: 350px;
+    position: absolute;
+    z-index: 6;
+    left: 8%;
+    top:-510px;
+    transition: all 1s ;
+}
+.notice
+{
+    padding: 10px ;
+    border: 1px solid #fff;
+    margin: 10px 5px;
+}
+.notice a
+{
+ color: #fff;
+}
+.notice h3{
+    display: inline-block;
+}
+.frinds
+{
+    background: #1b265a;
+    width: 350px;
+    position: absolute;
+    z-index: 5;
+    left: 8%;
+    top:-1000px;
+    transition: all 1s ;
+    
+}
+.frind{
+    padding: 10px ;
+    border: 1px solid #fff;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.frind img 
+{
+    border: 2px solid #fff ;
+    border-radius: 50%;
+}
+.yes div
+{
+    height: 50px;
+    background: #ff000063;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+.yes :first-child
+{
+    background: #414c7e;
+}
+.yes .delete h2 
+{
+    background: #414c7e05;
+}
+.lastpost
+{
+    background: #1b265a;
+    margin: 0px 20px;
+
+}
